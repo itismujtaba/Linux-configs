@@ -216,4 +216,4 @@ client.background       #ffffff
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 exec_always /home/itismujtaba/.config/polybar/launch.sh &
-exec_always --no-startup-id  autowall.sh
+exec_always --no-startup-id  /home/itismujtaba/.config/i3/autowall.sh

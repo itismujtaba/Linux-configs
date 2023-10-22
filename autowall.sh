@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the path to the wallpapers folder
-wallpapers_folder="~/Wallpapers"
+wallpapers_folder="/home/itismujtaba/Wallpapers"
 
 # Get a random wallpaper file from the folder
 random_wallpaper_file=$(ls -l "$wallpapers_folder" | sort -R | head -n 1 | awk '{print $9}')
