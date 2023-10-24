@@ -218,3 +218,4 @@ client.background       #ffffff
 exec_always /home/itismujtaba/.config/polybar/launch.sh &
 exec_always --no-startup-id  /home/itismujtaba/.config/i3/autowall.sh
 exec --no-startup-id xautolock -time 90 -locker "systemctl hybrid-sleep"
+exec --no-startup-id picom
